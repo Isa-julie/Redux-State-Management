@@ -1,0 +1,75 @@
+.pageShell {
+  min-height: 100svh;
+  padding: 0 36px;
+  background: #f2f6f3;
+  color: #193c35;
+}
+
+.masthead {
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid #cbd8d1;
+  font-size: 14px;
+  font-weight: 650;
+}
+
+.brandMark {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  background: #193c35;
+  color: #f2f6f3;
+  font-size: 12px;
+}
+
+.activityNumber {
+  margin-left: auto;
+  color: #657a72;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.counterSection {
+  width: min(100%, 680px);
+  margin: 0 auto;
+  padding: clamp(64px, 13vh, 132px) 0 96px;
+}
+
+.eyebrow {
+  margin: 0 0 16px;
+  color: #b3513e;
+  font-size: 11px;
+  font-weight: 750;
+}
+
+.counterSection h1 {
+  margin: 0 0 44px;
+  color: #193c35;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.08;
+}
+
+@media (max-width: 540px) {
+  .pageShell {
+    padding: 0 20px;
+  }
+
+  .masthead {
+    min-height: 64px;
+    font-size: 12px;
+  }
+
+  .counterSection {
+    padding-top: 72px;
+  }
+
+  .counterSection h1 {
+    margin-bottom: 36px;
+    font-size: 40px;
+  }
+}

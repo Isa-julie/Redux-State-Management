@@ -1,0 +1,62 @@
+.counter {
+  border-top: 1px solid #cbd8d1;
+  border-bottom: 1px solid #cbd8d1;
+  padding: 24px 0 28px;
+}
+
+.label {
+  margin: 0 0 4px;
+  color: #657a72;
+  font-size: 13px;
+}
+
+.value {
+  display: block;
+  min-height: 104px;
+  color: #193c35;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 84px;
+  line-height: 1.15;
+  font-variant-numeric: tabular-nums;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.stepButton {
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 1px solid #193c35;
+  background: #193c35;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.stepButton:hover {
+  background: #2b5a4e;
+}
+
+.resetButton {
+  min-width: 76px;
+  height: 44px;
+  margin-left: 4px;
+  padding: 0 12px;
+  border: 0;
+  background: transparent;
+  color: #b3513e;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.stepButton:focus-visible,
+.resetButton:focus-visible {
+  outline: 3px solid #d28a5d;
+  outline-offset: 3px;
+}
